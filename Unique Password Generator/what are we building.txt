@@ -1,0 +1,15 @@
+# make a project unique password generator using python
+
+
+could have feature:
+
+random secure password - see from internet what are the requirement for a strong password(i.e, how much long? and string, characters etc)
+
+see a quick of getting all character using python:- i think you can use ascii for that, and then transfrom ascii to character using the chr method in python. This way it will to be easy to create password rather than typing a whole list of characters and numbers and then randomly choosing from them create in dynamically
+
+ask user how much character long they want their password to be?
+if less than safe limit: notify the user
+if user insist on keeping same: then do it using the same length
+
+could ask user from their favorite thing or word and then create a password using that(will be less secure than completely random password) + add randomness to it as otherwise it will easily be susceptible to leak
+

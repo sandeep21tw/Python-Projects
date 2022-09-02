@@ -1,0 +1,15 @@
+This program is a simple email validator which checks whether the input given by user is valid or not.
+
+
+Things for a valid mail:
+- it shouldn't start with a number and (dot)
+- it must have only @ symbol (used to denote the name of service provider after @)
+- it len must be greater than 6 (why? because shortest email could be a@b.com, whose length is 7)
+- after @ there should be only one dot (.) [after (.) name of the high level domain comes)
+- left side (before @) shouldn't contain any character other than (a-z), (0-9) and (.)
+
+i think that is it!	
+
+
+
+- it shouldn't be uppercase technically but we could handle that by just converting it to lowercase automatically when creating (or evaluating)
